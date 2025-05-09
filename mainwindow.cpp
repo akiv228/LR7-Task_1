@@ -8,7 +8,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
-    refreshQueue();  // Show initial empty queue
+    refreshQueue();  
     this->setStyleSheet(
         "background-color: #181818;"
         "color: white;");
